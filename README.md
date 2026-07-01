@@ -10,4 +10,4 @@
 
 - ชื่อ-สกุล:วิณัฐพล จันทร์สุข
 - รหัสนักศึกษา:680610716
-- <strong>GITHUB PAGE URL : </strong>
+- <strong>GITHUB PAGE URL : https://cpe207-2569.github.io/lab03-Gram936/</strong>
