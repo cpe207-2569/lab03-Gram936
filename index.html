@@ -1,9 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <div class="d-flex justify-content-center gap-3 fw-bold my-4">
+      <a href="index.html">Home</a>
+      <a href="Favorites.html">Favorites</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+     <div class="d-flex flex-row justify-content-center align-item-center mx-auto gap-3"
+      style="max-width: 700px">
+      <div>
+      <img 
+      src="img/me.jpg" 
+      class="rounded-5"
+      width ="200"
+      height="200"
+      style="object-fit: cover"
+      />
+   </div>
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Winatthapon Jansuk</div>
+        <div class="text-muted">
+         สวัดดีผมชื่อวิณัฐพล จันทร์สุขผมกำลังศึกษาอยู่ที่<br>มหาวิทยาลัยเชียงใหม่
+        </div>
+       
+      </div>
+      </div>
+      <div class="display-5 d-sm-none text-center my-3">Winatthapon Jansuk</div><br>
+       <h1 class="text-center fs-3 my-4">Skill</p>
+       <div class="d-flex justify-content-center  gap-7 my-auto px-3">
+       <div class="card" style="width: 18rem;">
+  <img src="img/cooking.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Cooking</h5>
+    <p class="card-text text-muted" style="font-size: 1.25rem ">ผมชอบทำอาหารเป็นประจำและชอบทำอาหาร
+      เพื่อให้ตัวเองรู้สึกผ่อนคลายในบางเวลาที่ไม่ขี้เกียจ</p>
+  </div>
+</div>
+ <div class="card" style="width: 18rem;">
+  <img src="img/coding.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Programing</h5>
+    <p class="card-text text-muted" style="font-size: 1.25rem ">สำหรับผมการเขียนโปแกรมเป็นกิจกรรมที่ผมทำมันและมีสมาธิได้นาน ผมเคยทำโปรเจ็คกับเพื่อนโดยใช้ภาษา c++</p>
+  </div>
+</div>
+</div>
+    </body>
 </html>
